@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/btnConnect"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Conectar" />
+
+    <Button
+        android:id="@+id/btnLed1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Desconectar" />
+
+    <Button
+        android:id="@+id/btnLed2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Trocar alarme" />
+
+    <Button
+        android:id="@+id/btnLed3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Desligar alarme" />
+
+</LinearLayout>
